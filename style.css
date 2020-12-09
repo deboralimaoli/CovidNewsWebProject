@@ -1,10 +1,7 @@
+/* General CSS Configurations */
 body {
-    padding: 20px;
-    max-width: 700px;
-    width: 80%;
-    margin: 20px auto;
     font-family: 'Courier New', Courier, monospace;
-    background-color: grey;
+    background: linear-gradient(to right, #141415 0%, #3c2e06 0%);;
     }
     
 
@@ -17,32 +14,126 @@ body {
 }
 
 #staysafe{
-    display:flex;
-    justify-content: justify;
+    justify-content: center;
     margin-bottom: 30px;
     font-size: 40px;
     background-color: white;
 }
 
+#content{
+    background-color: white;
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+/* General CSS Configurations */
+
+
+
+
+/* Home Page CSS Configurations */
 .date {
     color: #3498db;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     }
     
-    .post {
+.post {
     margin-bottom: 20px;
     }
     
-    h2 {
+h2 {
     color: #2c3e50;
     font-size: 2.0rem;
     }
     
     
-    hr {
-        border: 0;
-        height: 1px;
-        background: #333;
-        background-image: linear-gradient(to right, #ccc, #333, #ccc);
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
     }
+       /* Home Page CSS Configurations */
+
+
+   
+ /* Contact Page CSS Configurations */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+   /* Contact Page CSS Configurations */
+
+
+/* About Page CSS Configurations */
+
+
+  .colu {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+  }
+  
+  .cont {
+    padding: 0 16px;
+  }
+  
+  .cont::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+ 
+  
+  @media screen and (max-width: 50px) {
+    .colu {
+      width: 100%;
+      display: block; 
+    }
+
+    html {
+        box-sizing: border-box;
+      }
+  
+    .name {
+        font-size: 80px;
+    }
+ /* About Page CSS Configurations */
+
+
+

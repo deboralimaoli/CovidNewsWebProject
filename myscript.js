@@ -4,12 +4,12 @@ var typewriter = new Typewriter(staysafe, {
     loop: true
 });
 
-typewriter.typeString('Wear a Mask')
-    .pauseFor(3000)
+typewriter.typeString('COVID-19 Latest News')
+    .pauseFor(5000)
     .deleteAll()
-    .typeString('Stay Safe')
+    .typeString('Wear a mask')
     .pauseFor(4000)
     .deleteAll()
-    .typeString('Protect People Life')
+    .typeString('Stay Safe')
     .pauseFor(2500)
     .start();
