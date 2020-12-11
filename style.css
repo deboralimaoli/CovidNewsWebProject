@@ -66,6 +66,7 @@ h1 {
 .post {
     margin-bottom: 20px;
     font-size: 16px;
+    text-align: justify;
  }
     
 hr {
@@ -74,6 +75,7 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
  }
+
        /* Home Page CSS Configurations */
 
  /* Contact Page CSS Configurations */
