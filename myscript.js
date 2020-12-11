@@ -13,3 +13,5 @@ typewriter.typeString('COVID-19 Latest News')
     .typeString('Stay Safe')
     .pauseFor(2500)
     .start();
+
+

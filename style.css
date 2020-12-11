@@ -1,63 +1,81 @@
 /* General CSS Configurations */
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to right, #141415 0%, #3c2e06 0%);;
-    }
+    background-color: black;
+  }
     
 
 #navbar{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-    background-color: white;
-    text-decoration: none;
-}
+    margin-bottom: 5px;
+    background-color: black; 
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%
+  }
+
+#navbar a{
+ background-color: black;
+ text-decoration: none;
+ text-transform: uppercase;
+ color: grey;
+ }
 
 #staysafe{
     justify-content: center;
     margin-bottom: 30px;
     font-size: 40px;
     background-color: white;
-}
+    text-align: center;
+  }
 
 #content{
     background-color: white;
     padding: 5%;
     margin-right: 5%;
     margin-left: 5%
-}
+  }
+
+h2 {
+   color: black;
+   font-size: 2.0rem;
+  }
+
+h1 {
+   color: black;
+   text-align: center;
+  }
 /* General CSS Configurations */
 
 
 
 
-/* Home Page CSS Configurations */
+/* Home Page and More News CSS Configurations */
 .date {
-    color: #3498db;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    }
-    
+ }
+.author{
+    color:black;
+    text-transform: uppercase;
+    font-size: 0.5rem; 
+  }
+
 .post {
     margin-bottom: 20px;
-    }
-    
-h2 {
-    color: #2c3e50;
-    font-size: 2.0rem;
-    }
-    
+    font-size: 16px;
+ }
     
 hr {
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    }
+ }
        /* Home Page CSS Configurations */
 
-
-   
  /* Contact Page CSS Configurations */
 input[type=text], select, textarea {
     width: 100%; 
@@ -69,9 +87,19 @@ input[type=text], select, textarea {
     margin-bottom: 16px; 
     resize: vertical ;
   }
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -80,7 +108,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: black;
   }
     .container {
     border-radius: 5px;
@@ -91,13 +119,11 @@ input[type=text], select, textarea {
 
 
 /* About Page CSS Configurations */
-
-
-  .colu {
+ .colu {
     float: left;
     width: 30%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 8px;
   }
   
   .card {
@@ -124,16 +150,18 @@ input[type=text], select, textarea {
     .colu {
       width: 100%;
       display: block; 
-    }
+  }
 
-    html {
+  html {
         box-sizing: border-box;
-      }
+  }
+
+h3{
+  text-align: center;
   
-    .name {
-        font-size: 80px;
-    }
- /* About Page CSS Configurations */
+ }
+    
+      /* About Page CSS Configurations */
 
 
 
