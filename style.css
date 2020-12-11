@@ -3,8 +3,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
   }
-    
-
+  
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -47,10 +46,6 @@ h1 {
    text-align: center;
   }
 /* General CSS Configurations */
-
-
-
-
 /* Home Page and More News CSS Configurations */
 .date {
     color: black;
@@ -66,6 +61,12 @@ h1 {
 .post {
     margin-bottom: 20px;
     font-size: 16px;
+    text-align: justify;
+ }
+
+ .post a{
+ text-decoration: none;
+ color: grey; 
  }
     
 hr {
@@ -74,6 +75,7 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
  }
+
        /* Home Page CSS Configurations */
 
  /* Contact Page CSS Configurations */
@@ -117,7 +119,6 @@ input[type=text], select, textarea {
   }
    /* Contact Page CSS Configurations */
 
-
 /* About Page CSS Configurations */
  .colu {
     float: left;
@@ -134,7 +135,6 @@ input[type=text], select, textarea {
   .cont {
     padding: 0 16px;
   }
-  
   .cont::after, .row::after {
     content: "";
     clear: both;
@@ -145,7 +145,6 @@ input[type=text], select, textarea {
     color: grey;
   }
  
-  
   @media screen and (max-width: 50px) {
     .colu {
       width: 100%;
@@ -160,7 +159,7 @@ h3{
   text-align: center;
   
  }
-    
+
       /* About Page CSS Configurations */
 
 
